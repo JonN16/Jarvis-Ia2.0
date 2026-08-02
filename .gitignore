@@ -19,9 +19,6 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# Memória pessoal do Jarvis — dados privados
-obsidian_vault/
-
 # Arquivos gerados pelo uso
 *.log
 *.tmp
@@ -29,6 +26,11 @@ obsidian_vault/
 *.bak
 *.swp
 *.swo
+
+# Obsidian: manter as ideias públicas visíveis, mas esconder notas pessoais
+obsidian_vault/Memorias/
+obsidian_vault/Perfil.md
+obsidian_vault/.obsidian/
 
 # Screenshots e mídia gerada
 screenshots/

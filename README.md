@@ -138,7 +138,17 @@ scripts/
 
 - .env.example: modelo de configuração do ambiente
 - scripts/setup_windows.ps1: script de instalação para Windows
-- testar.py: ferramenta para testar as vozes disponíveis do Edge TTS
+
+## Futuro do projeto
+
+As ideias de evolução, melhorias e próximos passos do Jarvis estão organizadas na pasta [obsidian_vault](obsidian_vault). Quem abrir o README já consegue ver alguns exemplos do que está sendo pensado:
+
+- [obsidian_vault/ideias_futuras_jarvis.md](obsidian_vault/ideias_futuras_jarvis.md): visão geral das próximas melhorias e expansões do projeto.
+- [obsidian_vault/ideia_bibliotecas_ia.md](obsidian_vault/ideia_bibliotecas_ia.md): ideias sobre uso de bibliotecas e ferramentas de IA.
+- [obsidian_vault/ideia_delegar_codigo_claude.md](obsidian_vault/ideia_delegar_codigo_claude.md): propostas para delegar parte do código para modelos externos.
+- [obsidian_vault/ideia_whatsapp_waha.md](obsidian_vault/ideia_whatsapp_waha.md): ideias para integrar o Jarvis com WhatsApp via WAHA.
+
+Esses documentos servem como um espaço de planejamento para o crescimento do projeto e podem ser abertos diretamente no Obsidian.
 
 ## Notas de desenvolvimento
 
