@@ -1,0 +1,50 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Credenciais e cache de autenticação — NUNCA versionar
+.env
+.env.local
+.env.*
+!.env.example
+.spotify_cache
+
+# Cache e artefatos locais do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Memória pessoal do Jarvis — dados privados
+obsidian_vault/
+
+# Arquivos gerados pelo uso
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Screenshots e mídia gerada
+screenshots/
+**/screenshots/
+*.png
+*.jpg
+*.jpeg
+*.mp3
+*.wav
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+
+# Histórico de shell/terminal
+*.history
